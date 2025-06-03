@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Form</title>
+  <link rel="stylesheet" href="san.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Biodata Form</h1>
+    <form id="biodataForm">
+      <section>
+        <h2>Personal Details</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </section>
+
+      <section>
+        <h2>Educational Qualifications</h2>
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree" required>
+        
+        <label for="institution">Institution:</label>
+        <input type="text" id="institution" name="institution" required>
+        
+        <label for="year">Year of Graduation:</label>
+        <input type="number" id="year" name="year" required>
+      </section>
+
+      <section>
+        <h2>Hobbies</h2>
+        <label><input type="checkbox" name="hobbies" value="Reading"> Reading</label>
+        <label><input type="checkbox" name="hobbies" value="Traveling"> Traveling</label>
+        <label><input type="checkbox" name="hobbies" value="Photography"> Photography</label>
+      </section>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="san.js"></script>
+</body>
+</html>
